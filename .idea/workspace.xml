@@ -5,6 +5,7 @@
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eurekaserver/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,25 +15,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="EurekaClientApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/cn/dijkstraz/EurekaClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="165">
+              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerInstanceRestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/cn/dijkstraz/controller/ServerInstanceRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eurekaserver/pom.xml">
+        <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+            <state relative-caret-position="375">
+              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaserverApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eurekaserver/src/main/java/cn/dijkstraz/EurekaserverApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,7 +80,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaserver/src/main/java/cn/dijkstraz/EurekaserverApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/java/cn/dijkstraz/EurekaClientApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/eurekaserver/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client/src/main/java/cn/dijkstraz/controller/ServerInstanceRestController.java" />
       </list>
     </option>
   </component>
@@ -57,9 +103,29 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eurekaserver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eurekaserver" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="mybd" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="183" />
+    <option name="y" value="44" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -75,6 +141,102 @@
             <path>
               <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dijkstraz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dijkstraz" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dijkstraz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybd" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaserver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -169,13 +331,13 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.24895833" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10885417" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1390625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -194,17 +356,82 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="150">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaserver/src/main/java/cn/dijkstraz/EurekaserverApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eurekaserver/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eurekaserver/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        <state relative-caret-position="105">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/cn/dijkstraz/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/src/main/java/cn/dijkstraz/controller/ServerInstanceRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
         </state>
       </provider>
     </entry>
